@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(214, 221, 231);
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    margin: 20px 300px;
+    background-color: white;
+    height: 700;
+    border-radius: 1%;
+}
+.cover{
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 350px;
+    background: url(images/cover.jpg);
+    opacity: 0.7;
+    z-index: 1;
+}
+.cover h1{
+    color: white;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+#form_div{
+    height: 100%;
+}
+form{
+    margin: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+form input{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.email_div{
+    padding-left: 22px;
+}
+#submit_button{
+    background-color: green;
+    width: 120px;
+    height: 50px;
+    margin: 20px 0px;
+    margin-right: 30px;
+    
+    border: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+#submit_button:hover{
+    cursor: pointer;
+    background-color: rgb(2, 145, 2);
+}
+
+.php_part{
+    height: 350px;
+}
+.php_part span{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+#navbar{
+    position: fixed;
+    background-color: rgb(150,75,0);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+    
+}
+.navlink{
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0px 30px;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+.navlink:hover{
+    background-color: white;
+    color: rgb(150,75,0);
+}
+.book_show{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h2{
+    margin-left: 100px;
+    margin-top: 130px;
+}
+#present_query_home{
+    margin-left: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.book{
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.book img{
+    align-self: center;
+}
+textarea{
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#textarea{
+    margin-right: 40px;
+}
+form .img{
+    position: relative;
+    left: 35px;
+}
+
+/* h1{
+    color: gold;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background: url(pics/background.jpg);
+    }
+    #link{
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    background: gold;
+    color: black;
+    }
+    #link a{
+        text-decoration: none;
+    }
+    #link a:hover{
+    text-decoration: underline;
+    }
+    form{
+        margin-top: 150px;
+        background-color: gold;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 150px;
+        font-size: 20px;
+    }
+    #submit_button{
+        width: 250px;
+    }
+    #submit_button:hover{
+        cursor: pointer;
+        background-color: gray;
+    }
+
+
+    .php_part{
+        margin-top: 150px;
+        background-color: gold;
+        width: 100%;
+        height: 150px;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .php_part a{
+        text-decoration: none;
+    }
+    .php_part :hover{
+        text-decoration: underline;
+    }
+
+    #php_handleform{
+        height: auto;
+    } */
